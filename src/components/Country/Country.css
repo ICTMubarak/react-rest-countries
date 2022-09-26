@@ -1,4 +1,15 @@
 .country{
     background-color: aqua;
     margin: 10px solid red;
+    
+}
+
+.country img{
+    width: 100px;
+}
+
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }

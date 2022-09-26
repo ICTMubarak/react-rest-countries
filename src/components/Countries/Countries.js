@@ -11,9 +11,12 @@ const Countries = () => {
     return (
         <div>
             <h1>Connected to other file {countries.length}</h1>
-            {
-                countries.map(country => <Country country = {country}></Country>)
-            }
+            <div className='countries-container'>
+                 {
+                    countries.map(country => <Country country = {country} key ={country.cca3}></Country>)
+                 }
+            </div>
+            
         </div>
     );
 };
