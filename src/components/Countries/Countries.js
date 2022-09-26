@@ -10,7 +10,7 @@ const Countries = () => {
     }, [])
     return (
         <div>
-            <h1>Connected to other file {countries.length}</h1>
+            <h2>Connected to other file update!! {countries.length}</h2>
             <div className='countries-container'>
                  {
                     countries.map(country => <Country country = {country} key ={country.cca3}></Country>)
